@@ -37,11 +37,17 @@ body {
   height: 128px;
 }
 
-h1, h2, h3 {
+h1 {
   color: #efb960;
   font-family: 'Poppins', sans-serif;
   font-size: 24px;
   line-height:30px;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height:20px;
 }
 
 a {
@@ -93,4 +99,8 @@ li a:hover {
 .list-inline li {
   display: inline-block;
   font-size: 40px;
+}
+
+.img-link:hover {
+  opacity: 0.8;
 }
